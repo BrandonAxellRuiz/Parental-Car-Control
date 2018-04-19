@@ -5,7 +5,7 @@
   "background_color": "#56aff6",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/index.html",
+  "start_url": "https://brandonaxellruiz.github.io/Parental-Car-Control/index.html",
   "icons": [
     {
       "src": "views/images/icons/icon-72x72.png",
