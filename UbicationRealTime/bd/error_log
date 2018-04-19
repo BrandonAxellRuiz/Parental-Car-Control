@@ -1,0 +1,25 @@
+[13-Feb-2018 15:56:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_start() in /home/donecomm/solti.com.mx/ubication_realtime/bd/location_real.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/donecomm/solti.com.mx/ubication_realtime/bd/location_real.php on line 4
+[13-Feb-2018 15:57:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_start() in /home/donecomm/solti.com.mx/ubication_realtime/bd/location_real.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/donecomm/solti.com.mx/ubication_realtime/bd/location_real.php on line 4
+[13-Feb-2018 15:57:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_start() in /home/donecomm/solti.com.mx/ubication_realtime/bd/location_real.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/donecomm/solti.com.mx/ubication_realtime/bd/location_real.php on line 4
+[13-Feb-2018 18:39:28 America/Chicago] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 4
+[13-Feb-2018 18:39:28 America/Chicago] PHP Notice:  Use of undefined constant JSON_UNICODE_UNESCAPED - assumed 'JSON_UNICODE_UNESCAPED' in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:39:28 America/Chicago] PHP Warning:  json_encode() expects parameter 2 to be integer, string given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:39:29 America/Chicago] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 4
+[13-Feb-2018 18:39:29 America/Chicago] PHP Notice:  Use of undefined constant JSON_UNICODE_UNESCAPED - assumed 'JSON_UNICODE_UNESCAPED' in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:39:29 America/Chicago] PHP Warning:  json_encode() expects parameter 2 to be integer, string given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:40:27 America/Chicago] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 4
+[13-Feb-2018 18:40:27 America/Chicago] PHP Notice:  Use of undefined constant JSON_UNICODE_UNESCAPED - assumed 'JSON_UNICODE_UNESCAPED' in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:40:27 America/Chicago] PHP Warning:  json_encode() expects parameter 2 to be integer, string given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:40:52 America/Chicago] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 4
+[13-Feb-2018 18:40:52 America/Chicago] PHP Notice:  Use of undefined constant JSON_UNICODE_UNESCAPED - assumed 'JSON_UNICODE_UNESCAPED' in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:40:52 America/Chicago] PHP Warning:  json_encode() expects parameter 2 to be integer, string given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 22
+[13-Feb-2018 18:41:35 America/Chicago] PHP Warning:  session_start() expects parameter 1 to be array, integer given in /home/donecomm/solti.com.mx/ubication_realtime/bd/rd_locations.php on line 4

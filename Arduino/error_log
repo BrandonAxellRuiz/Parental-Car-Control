@@ -1,0 +1,10 @@
+[17-Mar-2018 22:53:06 America/Chicago] PHP Notice:  Undefined index: id in /home/donecomm/solti.com.mx/backhome/arduino/index.php on line 2
+[17-Mar-2018 22:53:06 America/Chicago] PHP Notice:  Undefined index: id in /home/donecomm/solti.com.mx/backhome/arduino/index.php on line 6
+[21-Mar-2018 13:37:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function callAPI() in /home/donecomm/solti.com.mx/backhome/arduino/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/donecomm/solti.com.mx/backhome/arduino/index.php on line 9
+[21-Mar-2018 13:38:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function callAPI() in /home/donecomm/solti.com.mx/backhome/arduino/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/donecomm/solti.com.mx/backhome/arduino/index.php on line 9
