@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ArcGIS DevLabs: Track your location</title>
+    <style>
+      html, body, #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <link rel="stylesheet" href="https://jsdev.arcgis.com/4.10/esri/css/main.css">
+    <script src="https://jsdev.arcgis.com/4.10/"></script>
+    
+    <script>
+      require([
+          "esri/Map",
+          "esri/views/MapView",
+          "esri/widgets/Locate",
+          "esri/widgets/Track",
+          "esri/Graphic",
+          "dojo/domReady!"
+        ], function(Map, MapView, Locate, Track, Graphic) {
+
+        var map = new Map({
+          basemap: "streets-navigation-vector"
+        });
+
+        var view = new MapView({
+          container: "viewDiv",
+          map: map
+        });
+
+        var locate = new Locate({
+          view: view,
+          useHeadingEnabled: false,
+          // goToOverride: function(view, options) {
+          //   options.target.scale = 1500;
+          //   return view.goTo(options.target);
+          // }
+        });
+        view.ui.add(locate, "top-left");
+        
+        var track = new Track({
+          view: view,
+          graphic: new Graphic({
+            symbol: {
+              type: "simple-marker",
+              size: "9px",
+              color: "green",
+              outline: {
+                color: "#efefef",
+                width: "1.2px"
+              }
+            }
+          }),
+          useHeadingEnabled: false,
+          goToLocationEnabed: false,
+          goToOverride: function(view, options) {
+            options.target.scale = null;
+            return view.goTo(options);
+          }
+        });
+        view.ui.add(track, "top-left");
+
+        view.when(function() {
+          // track.start();
+          // view.zoom = 12;
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
